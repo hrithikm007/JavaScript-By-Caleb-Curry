@@ -20,8 +20,12 @@ let param2 = "Sneha"
 console.log(dummyString.includes(param1));      // true
 console.log(dummyString.includes(param2));      //false 
 console.log(dummyString.includes(param1, 20));  //? start searching from index 20
-// returns 12 as its Index from which Hrithik007 starts
-console.log(dummyString.indexOf(param1));       
 
+
+// returns 12 as its the Index from which Hrithik007 starts
+console.log(dummyString.indexOf(param1));       
 console.log(dummyString.indexOf("a",dummyString.indexOf("a")+1));
 //? Searching for index of 2nd occurance of a
+console.log(dummyString.lastIndexOf("a")); // last occuring index of a
+
+
